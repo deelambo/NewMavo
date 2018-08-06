@@ -27,7 +27,7 @@ public class AppTest
     public void launchBrowser(){
 
 
-        WebDriver driver = new FirefoxDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https://google.com");
         driver.close();
 
