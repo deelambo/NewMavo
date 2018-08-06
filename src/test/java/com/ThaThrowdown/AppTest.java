@@ -26,7 +26,7 @@ public class AppTest
     @Test
     public void launchBrowser(){
 
-
+        System.setProperty("webdriver.chrome.driver","https://github.com/deelambo/NewMavo.git/Driver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://google.com");
         driver.close();
